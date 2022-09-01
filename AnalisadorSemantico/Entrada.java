@@ -19,7 +19,7 @@ public class Entrada {
         try {
             int ret = is.read();
             System.out.println((char)ret);
-            return 0;
+            return ret;
         } catch (Exception e) {
             e.printStackTrace();
             return -1;

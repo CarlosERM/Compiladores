@@ -13,6 +13,6 @@ public class Token {
     @Override
     public String toString() {
          
-        return "<" + tipo + "," + lexema + ">";
+        return "<" + tipo + "," + "'" + lexema + "'" + ">";
     }
 }
