@@ -1,0 +1,13 @@
+Programa --> Lista de Comandos
+Lista de Comandos --> Comando, ListaComandos | Comando
+Comando --> ComandoIF | ComandoAtribuicao
+ComandoIF --> TK_IF  TK_Expressao TK_ENTAO | TK_IF Expressao TK_Entao Comando TK_ELSE Comando
+ComandoAtribuicao --> id TK_Atribuicao
+
+Conceitos: 
+ 
+ Abordagem de baixo pra cima.
+
+ a * (a + b00) <- a * (a + I00) <- a * (a + I0) <- a * (a + I) <- a * (I + E) 
+ <- a * (E + E) <- a * (E) <- a * E <- I * E <- E * E <- E
+ 
