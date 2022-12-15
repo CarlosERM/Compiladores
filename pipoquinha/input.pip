@@ -1,0 +1,11 @@
+pipoca
+    numeroPipoca a;
+    numeroPipoca b;
+    a = 10;
+    b = 20;
+    sePipoca (a > b) {
+            escrevaPipoca(a);
+    } senaoPipoca {
+            escrevaPipoca(b);
+    }
+fimpipoca;
